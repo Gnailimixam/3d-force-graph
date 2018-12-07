@@ -3,35 +3,35 @@
 [![NPM](https://nodei.co/npm/3d-force-graph.png?compact=true)](https://nodei.co/npm/3d-force-graph/)
 
 <p align="center">
-     <a href="https://vasturiano.github.io/3d-force-graph/example/large-graph/"><img width="80%" src="http://gist.github.com/vasturiano/02affe306ce445e423f992faeea13521/raw/preview.png"></a>
+     <a href="https://gnailimixam.github.io//example/large-graph/"><img width="80%" src="http://gist.github.com/vasturiano/02affe306ce445e423f992faeea13521/raw/preview.png"></a>
 </p>
 
 A web component to represent a graph data structure in a 3-dimensional space using a force-directed iterative layout.
 Uses [ThreeJS](https://github.com/mrdoob/three.js/)/WebGL for 3D rendering and either [d3-force-3d](https://github.com/vasturiano/d3-force-3d) or [ngraph](https://github.com/anvaka/ngraph.forcelayout3d) for the underlying physics engine.
 
 Check out the examples:
-* [Basic](https://vasturiano.github.io/3d-force-graph/example/basic/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/basic/index.html))
-* [Asynchronous load](https://vasturiano.github.io/3d-force-graph/example/async-load/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/async-load/index.html))
-* [Larger graph (~4k elements)](https://vasturiano.github.io/3d-force-graph/example/large-graph/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/large-graph/index.html))
-* [Directional arrows](https://vasturiano.github.io/3d-force-graph/example/directional-links-arrows/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/directional-links-arrows/index.html))
-* [Directional moving particles](https://vasturiano.github.io/3d-force-graph/example/directional-links-particles/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/directional-links-particles/index.html))
-* [Curved lines and self links](https://vasturiano.github.io/3d-force-graph/example/curved-links/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/curved-links/index.html))
-* [Auto-colored nodes/links](https://vasturiano.github.io/3d-force-graph/example/auto-colored/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/auto-colored/index.html))
-* [Text as nodes](https://vasturiano.github.io/3d-force-graph/example/text-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/text-nodes/index.html))
-* [Images as nodes](https://vasturiano.github.io/3d-force-graph/example/img-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/img-nodes/index.html))
-* [Custom node geometries](https://vasturiano.github.io/3d-force-graph/example/custom-node-geometry/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/custom-node-geometry/index.html))
-* [Orbit controls](https://vasturiano.github.io/3d-force-graph/example/controls-orbit/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/controls-orbit/index.html))
-* [Fly controls](https://vasturiano.github.io/3d-force-graph/example/controls-fly/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/controls-fly/index.html))
-* [Camera automatic orbitting](https://vasturiano.github.io/3d-force-graph/example/camera-auto-orbit/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/camera-auto-orbit/index.html))
-* [Click to focus on node](https://vasturiano.github.io/3d-force-graph/example/click-to-focus/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/click-to-focus/index.html))
-* [Highlight nodes/links](https://vasturiano.github.io/3d-force-graph/example/highlight/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/highlight/index.html))
-* [Dynamic data changes](https://vasturiano.github.io/3d-force-graph/example/dynamic/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/dynamic/index.html))
-* [Node collision detection](https://vasturiano.github.io/3d-force-graph/example/collision-detection/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/collision-detection/index.html))
-* [Manipulate link force distance](https://vasturiano.github.io/3d-force-graph/example/manipulate-link-force/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/manipulate-link-force/index.html))
-* [Force-directed tree (DAG mode)](https://vasturiano.github.io/3d-force-graph/example/tree/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/tree/index.html))
-* [yarn.lock dependency graph (DAG mode)](https://vasturiano.github.io/3d-force-graph/example/dag-yarn/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/dag-yarn/index.html))
-* [Add external objects to scene](https://vasturiano.github.io/3d-force-graph/example/scene/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/scene/index.html))
-* [Pause / Resume animation](https://vasturiano.github.io/3d-force-graph/example/pause-resume/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/pause-resume/index.html))
+* [Basic](https://gnailimixam.github.io//example/basic/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/basic/index.html))
+* [Asynchronous load](https://gnailimixam.github.io//example/async-load/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/async-load/index.html))
+* [Larger graph (~4k elements)](https://gnailimixam.github.io//example/large-graph/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/large-graph/index.html))
+* [Directional arrows](https://gnailimixam.github.io//example/directional-links-arrows/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/directional-links-arrows/index.html))
+* [Directional moving particles](https://gnailimixam.github.io//example/directional-links-particles/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/directional-links-particles/index.html))
+* [Curved lines and self links](https://gnailimixam.github.io//example/curved-links/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/curved-links/index.html))
+* [Auto-colored nodes/links](https://gnailimixam.github.io//example/auto-colored/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/auto-colored/index.html))
+* [Text as nodes](https://gnailimixam.github.io//example/text-nodes/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/text-nodes/index.html))
+* [Images as nodes](https://gnailimixam.github.io//example/img-nodes/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/img-nodes/index.html))
+* [Custom node geometries](https://gnailimixam.github.io//example/custom-node-geometry/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/custom-node-geometry/index.html))
+* [Orbit controls](https://gnailimixam.github.io//example/controls-orbit/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/controls-orbit/index.html))
+* [Fly controls](https://gnailimixam.github.io//example/controls-fly/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/controls-fly/index.html))
+* [Camera automatic orbitting](https://gnailimixam.github.io//example/camera-auto-orbit/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/camera-auto-orbit/index.html))
+* [Click to focus on node](https://gnailimixam.github.io//example/click-to-focus/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/click-to-focus/index.html))
+* [Highlight nodes/links](https://gnailimixam.github.io//example/highlight/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/highlight/index.html))
+* [Dynamic data changes](https://gnailimixam.github.io//example/dynamic/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/dynamic/index.html))
+* [Node collision detection](https://gnailimixam.github.io//example/collision-detection/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/collision-detection/index.html))
+* [Manipulate link force distance](https://gnailimixam.github.io//example/manipulate-link-force/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/manipulate-link-force/index.html))
+* [Force-directed tree (DAG mode)](https://gnailimixam.github.io//example/tree/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/tree/index.html))
+* [yarn.lock dependency graph (DAG mode)](https://gnailimixam.github.io//example/dag-yarn/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/dag-yarn/index.html))
+* [Add external objects to scene](https://gnailimixam.github.io//example/scene/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/scene/index.html))
+* [Pause / Resume animation](https://gnailimixam.github.io//example/pause-resume/) ([source](https://github.com/Gnailimixam/Gnailimixam.github.io/tree/master/example/pause-resume/index.html))
 
 See also the [VR version](https://github.com/vasturiano/3d-force-graph-vr) and the [2D canvas version](https://github.com/vasturiano/force-graph).
 
