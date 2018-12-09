@@ -13,7 +13,13 @@
   <script>
     var fs = require('fs');
     var path = './render_pix_8';
-    fs.readdir(path, function(err, items) {console.log(items);}
+    fs.readdir(path, function(err, items) {
+      console.log(items);
+
+      for (var i=0; i<items.length; i++) {
+          console.log(items[i]);
+      }
+  });
     const imgs = items;
 
     // Random connected graph
