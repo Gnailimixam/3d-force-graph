@@ -9,17 +9,6 @@
 
 <body>
   <div id="3d-graph"></div>
-  <%
-  Dim fs,fo,x, files()
-  Set fs=Server.CreateObject("Scripting.FileSystemObject")
-  Set fo=fs.GetFolder("./render_pix_8")
-  for each x in fo.files
-    files(x) = x.Name
-    Response.Write(x.Name & "<br/>")
-  next
-  set fo=nothing
-  set fs=nothing
-  %>
 
   <script>
     const imgs = ['T5_W3_V0_C17_A8.png',
@@ -562,9 +551,20 @@
         const material = new THREE.SpriteMaterial({ map: imgTexture });
         const sprite = new THREE.Sprite(material);
         sprite.scale.set(12, 12);
-
         return sprite;
       })
+      .onNodeHover(node => elem.style.cursor = node ? 'pointer' : null)
+      .onNodeClick(node => {
+        // Aim at node from outside it
+        const distance = 40;
+        const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+
+        Graph.cameraPosition(
+          { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // new position
+          node, // lookAt ({ x, y, z })
+          3000  // ms transition duration
+        );
+      });
       .graphData(gData);
   </script>
 </body>
